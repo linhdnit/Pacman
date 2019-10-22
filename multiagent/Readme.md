@@ -16,7 +16,6 @@ Giải quyết:
 		Tiếp kiểm tra tác nhân hiện tại là tác nhân cuối cùng thì giảm độ sâu
 		Tạo mảng đệ quy lưu tất cả các hành động đối với tác nhân hiện tại
 		Kiểm tra nếu là pacman thì trả về giá trị max của mảng còn nếu là ma thì trả về giá trị min
-	
 	Trong hàm getAction() gọi hàm miniMax()
 
 Question 3: Alpha-Beta Pruning
@@ -38,7 +37,6 @@ Giải quyết:
 			Lấy v là giá trị nhỏ nhất
 			Nếu v < alpha thì trả về v và gán beta = min (beta, v)
 			Trả về v
-	
 	Trong hàm getAction():
 		Tạo v là mảng các giá trị lớn vô cùng, alpha là giá trị âm vô cùng, beta: lớn vô cùng
 		Duyệt tất cả các hành động
